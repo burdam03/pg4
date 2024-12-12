@@ -2,8 +2,8 @@ def bin_to_dec(binarni_cislo):
     cislo = str(binarni_cislo)
     soucet = 0
 
-    for index, cislo in enumerate(num):
-        exponent = len(num) - index - 1
+    for index, cislo in enumerate(cislo):
+        exponent = len(cislo) - index - 1
         if cislo == "1":
             print(exponent)
             soucet += 2 ** exponent 
